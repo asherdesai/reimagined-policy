@@ -1,0 +1,9 @@
+A market economy is better than a planned economy.,0.9,0,0,0,0,-0.1,0,0
+The government should not use taxes to redistribute wealth to the needy.,0.1,1,0,0,0,-0.1,0,0
+We should focus on issues at home before participating in global affairs.,0,0,0.7,-0.3,-0.3,0,0,0
+We should use our military strength to protect our national interests.,0,0,-0.3,0.7,-0.3,0,0,0
+It is often important to compromise with allies to ensure global peace and stability.,0,0,-0.3,-0.3,0.7,0,0,0
+I feel more safe when the government has more power to protect me.,0,0,0,0,0,0.8,0,0
+Everyone having the same ethnicity is an integral part of national identity.,0,0,0,0,0,0,-1,0
+We should preserve traditional institutions like religion.,0,0,0,0,0,0,0,1
+Abortion is bad.,0,0,0,0,0,0,0,1
