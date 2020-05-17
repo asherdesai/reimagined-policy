@@ -7,10 +7,7 @@
 
 # RUN PROGRAM TO START TEST
 
-import math,os,csv
-
-dir = "C:/Users/Asher/Desktop/python/.vscode"
-os.chdir(dir)
+import math,csv
 
 class Question:
     def __init__(self, prompt, market, individual, independence, strength, diplomacy, authority, openness, tradition):
@@ -43,7 +40,7 @@ class Ideology:
         return f"{self.prompt}: {self.market}, {self.individual}, {self.independence}, {self.strength}, {self.diplomacy}, {self.authority}, {self.openness}, {self.tradition}\n"
 
 questions_list = []
-with open("questions_weights.txt", newline = "") as f:
+with open(".vscode\questions_weights.txt", newline = "") as f:
     file_test_reader = csv.reader(f, delimiter = ",")
     for f in file_test_reader:
         questions_list.append(f)
@@ -54,7 +51,7 @@ for item in questions_list:
     questions.append(q)
 
 ideologies_list = []
-with open("ideologies_metrics.txt", newline = "") as f:
+with open(".vscode\ideologies_metrics.txt", newline = "") as f:
     file_test_reader = csv.reader(f, delimiter = ",")
     for f in file_test_reader:
         ideologies_list.append(f)
